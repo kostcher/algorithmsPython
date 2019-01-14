@@ -3,7 +3,7 @@
 
 import random
 
-numbers = [random.randint(-0, 100) for _ in range(10)]
+numbers = [random.randint(0, 100) for _ in range(10)]
 
 max_number = 0
 min_number = 0
